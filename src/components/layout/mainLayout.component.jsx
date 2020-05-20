@@ -1,10 +1,12 @@
 import React from 'react'
 
+import Header from '../header/header.component'
+
+import './mainLayout.styles.scss'
+
 const MainLayout = ({children}) => (
     <div className="MainLayout">
-        <div>
-            <h1> Header </h1>
-        </div>
+        <Header />
         {children}
     </div>
 )
