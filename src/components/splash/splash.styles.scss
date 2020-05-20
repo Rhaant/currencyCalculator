@@ -1,0 +1,65 @@
+@import '../../styles/settings.styles.scss';
+
+.Splash {
+    height: 90%;
+}
+
+.Wrapper {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Left-side {
+    width: 50%;
+    height: 100%;
+    // border: white 2px solid;
+}
+.Right-side {
+    width: 50%;
+    height: 100%;
+    // border: white 2px solid;
+}
+
+.Square{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    margin: auto;
+    width: 40vw;
+    height: 40vw;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.Background-square-one {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background-color: $secondary-color;
+}
+
+.Background-square-two {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    background-color: $secondary-color;
+}
+
+.Data-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: -75%;
+    background-color: rgba(255, 255, 255, 0.699);
+    color:  $font-secondary-color;
+    font-size: 1.2vw;
+    
+}
