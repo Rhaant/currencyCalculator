@@ -1,5 +1,7 @@
 import React from "react";
 
+import Calculator from '../calculator/calculator.component'
+
 import "./splash.styles.scss";
 
 const Splash = () => (
@@ -16,7 +18,9 @@ const Splash = () => (
             </div>
           </div>
       </div>
-      <div className="Right-side"></div>
+      <div className="Right-side">
+        <Calculator />
+      </div>
     </div>
   </div>
 );

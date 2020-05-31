@@ -7,6 +7,7 @@
 .Wrapper {
     padding: 0 20px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -60,6 +61,29 @@
     top: -75%;
     background-color: rgba(255, 255, 255, 0.699);
     color:  $font-secondary-color;
-    font-size: 1.2vw;
+    font-size: 1.15rem;
     
+}
+
+@media only screen and (max-width: 720px){
+    .Wrapper{
+        flex-direction: column;
+    }
+
+    .Right-side {
+        width: 100%;
+        
+    }
+    
+    .Left-side {
+        width: 100%;
+
+        .Square{
+            width: 80vw;
+            height: 80vw;
+            left: 0;
+            top: 0;
+            position: relative;
+        }
+    }
 }
